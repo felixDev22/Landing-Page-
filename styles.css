@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Lato;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.01), rgba(0, 2, 15, 0.803)),
+    url(images/darkbg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 50px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.logo {
+  color: #fff;
+  font-weight: 900;
+}
+span {
+  color: #ef571a;
+}
+.btn {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #ef571a, #b11804);
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+  transition: 0.5s;
+}
+.btn:hover {
+  border-top-left-radius: 25px;
+  color: #ffff;
+}
+.content {
+  color: #ffff;
+  margin-top: 15%;
+  max-width: 600px;
+  justify-content: space-between;
+}
+h3 {
+  color: #ef571a;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 15px;
+}
+h1 {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+p {
+  letter-spacing: 1.5px;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+.chef-img {
+  width: 40%;
+  bottom: 0;
+  right: 8%;
+  position: absolute;
+}
+@media (min-width: 991px) {
+  .btn {
+    padding: 5px 10px;
+  }
+}
