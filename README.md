@@ -1,3 +1,4 @@
 # Landing-Page
 
-an animated landing page 
+this is a an animated landing page, created using html and css.
+animation created using css.
